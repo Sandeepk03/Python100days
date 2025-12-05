@@ -1,4 +1,4 @@
-#How to use upper and lower 
+#Sting handling functions . Inbuild Data types
 
 Name = 'Sandeep'
 print(Name.lower())
