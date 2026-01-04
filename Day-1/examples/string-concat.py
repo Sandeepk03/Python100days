@@ -8,22 +8,31 @@ print(result)
 first='John'
 middle='David'
 last='Smith'
+Date_of_birth='04/09/1993'
 full_name=first + ' ' + middle + ' ' + last
-print(full_name)
+message=f'{full_name} and my DOB: {Date_of_birth}'
+print(message)
 
 # Exercise 2: Using f-strings
 name='Alice'
 age=25
-message=f'{name} is {age} years old'
+gender='Female Employee'
+message=f'{name} is {age} years old and {gender}'
 print(message)
 
 # Exercise 3: Concatenate with multiplication
-symbol='*'
-border=symbol * 20
+symbol= []'&'
+symbol1='*'
+border=symbol * 100
+border2=symbol1 * 100
 title='Welcome to Python'
+title_2='Lets start coding in python'
 print(border)
 print(title)
 print(border)
+print(title_2)
+print(border2)
+
 
 # Exercise 4: String concatenation in a loop
 colors=['Red', 'Green', 'Blue']
